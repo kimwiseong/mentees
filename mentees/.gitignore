@@ -54,6 +54,10 @@ local.properties
 .apt_generated/
 .apt_generated_test/
 
+# DS_Store
+.DS_Store
+/.DS_Store
+
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main
 .scala_dependencies
@@ -67,7 +71,5 @@ local.properties
 # Spring Boot Tooling
 .sts4-cache/
 
-### DS_Store ###
-.DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
