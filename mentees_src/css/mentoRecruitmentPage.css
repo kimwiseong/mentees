@@ -1,0 +1,60 @@
+body{   
+  @font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;   
+  font-family: "yg-jalnan";
+  } 
+} 
+.mentoArea{
+ width: 80%;
+  margin: 0 auto;
+}
+.mentoArea .searchBox{
+  width: 410px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  font-family: 'yg-jalnan';
+}
+.mentoArea .registerMento{
+  width: 180px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 20%;
+  left: 67%;
+  font-family: 'yg-jalnan';
+}
+.mentoArea .searchButton{
+border-radius: 8px;
+position: absolute;
+width: 50px;
+height: 60px;
+top: 25%;
+left: 72%;
+}
+.line{
+position: absolute;
+top: 30%;
+}
+
+.mentoArea ol li{
+  font-size: 30px;
+  position: absolute;
+  top: 35%;
+  
+}
+.mentoArea .mentolist1 a:link{
+  color: black;
+}
+.mentoArea .mentolist1 a:visited{
+  color: black;
+}
