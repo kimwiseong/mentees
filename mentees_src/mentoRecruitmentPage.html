@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mentoRecruitmentPage</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/mentoRecruitmentPage.css">  
+  <script>
+    function registMento(){
+      location.href = "registerMento.html"
+    }
+  </script>
+</head>
+<body>
+  <nav class="navBar">
+    <ul>
+      <li><a href="mainpage.html" class="navLogo" style="color: #5f9c25;">mentees</a></li>
+      <li><a href="noticePage.html" class="noticePage">공지 사항</a></li>
+      <li><a href="mentoRecruitmentPage.html" class="mentoRecruitment">멘토 모집</a></li>
+      <li><a href="menteeRecruitmentPage.html" class="menteeRecruitment">멘티 모집</a></li>
+      <li><a href="myPage.html" class="myPage">내정보</a></li>      
+    </ul>
+  </nav>
+
+  <div class="mentoArea">
+    <button href="registerMento.html" class="registerMento" onclick="registMento(); return false;">멘토 신청하기</button>
+    <input type="search" placeholder="검색어를 입력해주세요." class="searchBox">
+    <input type="button" value="검색" style="font-family: 'yg-jalnan';" class="searchButton">
+    <hr width="70%" size="4" color="gray" class="line"><br>
+    
+    <ol>
+      <li class="mentolist1"><a href="mentolist1.html"><b>servlet, jsp 관련 멘토링</b></a></li>
+    </ol>
+  </div>
+
+</body>
+</html>

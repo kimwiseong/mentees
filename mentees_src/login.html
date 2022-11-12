@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+  <script>
+    function goMakeAccount(){
+      location.href = "makeAccount.html"
+    }
+  </script>
+</head>
+<body>
+  <div class="logo">mentess</div>
+  <div class="comment">
+    멘토링 사이트 mentees에서 당신의 지식을<br>
+    공유해 보세요
+  </div>
+  <div class="loginForm">
+    <form>
+      <input type="text" name="userId" id = "userId" placeholder="아이디를 입력해주세요." class="idInput" autofocus><br>
+      <input type="password" name="userPwd" id="userPwd" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
+      <input type="submit" value="로그인" class="loginButton"><br>
+      <hr size="4" color="gray">
+      <button href="makeAccount.html" class="makeAccount" onclick="goMakeAccount(); return false;">계정 만들기</button>
+    </form>
+  </div>
+</body>
+</html>
