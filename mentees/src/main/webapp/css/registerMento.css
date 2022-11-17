@@ -3,7 +3,7 @@
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+  }
   body{
     font-family: "yg-jalnan";
   }
@@ -20,33 +20,15 @@
     top: 40%;
     font-size: 30px;      
   }
-  
-  .loginForm{
+  .mentoRegisterform{
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 20%;
     border: 3px solid gray;
     border-radius: 10px;
     padding: 10px;
     font-family: "yg-jalnan";  
   }
-  
-  .inputStyle {
-      width: 400px;
-    height: 60px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-family: "yg-jalnan";  
-  }
-  
-  .emailInput{
-    width: 400px;
-    height: 60px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    font-family: "yg-jalnan";  
-  }
-  
   .idInput{
     width: 400px;
     height: 60px;
@@ -54,27 +36,25 @@
     margin-bottom: 10px;
     font-family: "yg-jalnan";  
   }
-  .pwdInput{
+  .emailInput{
     width: 400px;
     height: 60px;
     border-radius: 8px;
     margin-bottom: 10px;
     font-family: "yg-jalnan";  
   }
-  .loginButton{
+  .subjectInput{
+    width: 400px;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-family: "yg-jalnan";  
+  }
+  .join{
     width: 410px;
     height: 60px;
     border-radius: 8px;
     background-color: #82c147d0;
-    opacity: 0.8;
-    font-family: "yg-jalnan";  
-    margin-bottom: 10px;
-  }
-  .makeAccount{
-    width: 410px;
-    height: 60px;
-    border-radius: 8px;
-    background-color: rgba(128, 128, 128, 0.432);
     opacity: 0.8;
     font-family: "yg-jalnan";
     margin-top: 10px;      
