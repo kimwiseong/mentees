@@ -17,13 +17,13 @@
     공유해 보세요
   </div>
   <div class="loginForm">
-    <form method="post">
-      <input type="text" name="userId" id = "userId" placeholder="아이디를 입력해주세요." class="idInput" autofocus><br>
-      <input type="password" name="userPwd" id="userPwd" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
+    <form method="post" action="login">
+      <input type="text" name="email" id="email" placeholder="이메일을 입력해주세요." class="idInput" autofocus><br>
+      <input type="password" name="password" id="password" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
       <input type="submit" value="로그인" class="loginButton"><br>
       <hr size="4" color="gray">
-      <button class="makeAccount">계정 만들기</button>
     </form>
+     <button class="makeAccount">계정 만들기</button> <!--  join으로 링 -->
   </div>
 </body>
 </html>
