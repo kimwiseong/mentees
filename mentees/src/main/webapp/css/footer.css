@@ -1,5 +1,4 @@
-@charset "UTF-8";
-	#ft {
+	#wrap {
     	min-height: 100vh;
     	position: relative;
     	width: 100%;
@@ -34,7 +33,7 @@
   		margin-left: 20px;
 	}
 	
-	body {
+	/* html, body {
   		margin: 0;
   		padding: 0;
-	}
+	} */

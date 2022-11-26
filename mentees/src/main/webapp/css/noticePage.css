@@ -1,0 +1,45 @@
+body{   
+  @font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;   
+  font-family: "yg-jalnan";
+  } 
+} 
+.noticeArea{
+  width: 80%;
+  margin: 0 auto;
+}
+.searchBox{
+  width: 300px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  font-family: 'yg-jalnan';
+}
+.searchButton{
+border-radius: 8px;
+position: absolute;
+width: 50px;
+height: 60px;
+top: 25%;
+left: 72%;
+}
+.line{
+position: absolute;
+top: 30%;
+}
+.noticeArea .noticeLists{
+  font-size: 1.5vw;
+  position: absolute;
+  top: 35%;
+  
+}
+.noticeArea li a:visited{
+  color: black;
+}

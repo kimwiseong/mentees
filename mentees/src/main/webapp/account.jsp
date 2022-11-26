@@ -8,22 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-  <link rel="stylesheet" href="css/account.css">
+  <link rel="stylesheet" href="css/makeAccount.css">
 </head>
 <body>
-  <div class="logo">mentess</div>
+  <div class="logo">mentees</div>
   <div class="comment">
     멘토링 사이트 mentees에서 당신의 지식을<br>
     공유해 보세요
   </div>
   <div class="loginForm">
     <form>
-      <h1>회원 가입</h1>
+      <h1 align="center">회원 가입</h1>
       <hr size="4" color="gray"><br>
-      <input type="text" name="userId" id = "userId" placeholder="이름을 입력해주세요. ex) 홍길동" class="idInput" autofocus><br>
-      <input type="email" name="userEmail" id="userEmail" placeholder="이메일을 입력해주세요." class="emailInput"><br>
-      <input type="password" name="userPwd" id="userPwd" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
-      <input type="password" name="userPwdCheck" id="userPwdCheck" placeholder="비밀번호를 다시 입력해주세요." class="pwdCheck"><br>
+      <input type="text" name="userId" id = "userId" placeholder="이름을 입력해주세요. ex) 홍길동" class="loginFormInput" autofocus><br>
+      <input type="email" name="userEmail" id="userEmail" placeholder="이메일을 입력해주세요." class="loginFormInput"><br>
+      <input type="password" name="userPwd" id="userPwd" placeholder="비밀번호를 입력해주세요." class="loginFormInput"><br>
+      <input type="password" name="userPwdCheck" id="userPwdCheck" placeholder="비밀번호를 다시 입력해주세요." class="loginFormInput"><br>
       <input type="submit" value="가입하기" class="join">    
     </form>
   </div>

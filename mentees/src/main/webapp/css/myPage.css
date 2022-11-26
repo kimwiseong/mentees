@@ -1,0 +1,28 @@
+.userImage{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-radius: 50%;
+}
+.userInfo {
+  position: absolute;
+  top: 55%;
+  left: 22%;
+}
+.userInfo ul {
+  list-style-type: none;
+}
+.moreInfo{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 30vw;
+  height: 35vw;
+  border: 3px solid black;
+  border-radius: 20px 20px;
+}
+.moreInfo ul{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}

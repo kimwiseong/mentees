@@ -9,6 +9,9 @@
   <title>Login</title>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <link rel="stylesheet" href="css/login.css">
+  <style>
+  	a { text-decoration: none; color:black }
+  </style>
 </head>
 <body>
   <div class="logo">mentees</div>
@@ -17,13 +20,13 @@
     공유해 보세요
   </div>
   <div class="loginForm">
-    <form method="post">
-      <input type="text" name="userId" id = "userId" placeholder="아이디를 입력해주세요." class="idInput" autofocus><br>
-      <input type="password" name="userPwd" id="userPwd" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
+    <form method="post" action="login">
+      <input type="text" name="email" id="email" placeholder="이메일을 입력해주세요." class="idInput" autofocus><br>
+      <input type="password" name="password" id="password" placeholder="비밀번호를 입력해주세요." class="pwdInput"><br>
       <input type="submit" value="로그인" class="loginButton"><br>
       <hr size="4" color="gray">
-      <button class="makeAccount">계정 만들기</button>
     </form>
+     <button class="makeAccount"><a href="join.jsp">계정 만들기</a></button> <!--  join으로 링크 -->
   </div>
 </body>
 </html>
