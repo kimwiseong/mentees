@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+	font-size: 3vw;
+	color: #5f9c25;
+	font-family: "yg-jalnan";
+}
+.comment {
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	font-size: 2vw;
+	font-family: "yg-jalnan";
+}
+a:visited{
+	color:black;
+}
+.noticeView{
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  width: 300px;
+}
+.noticeView a:link {
+  text-decoration: none;
+  color: black;
+}
+.noticeView ul li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mentoView{
+  position: absolute;
+  left: 55%;
+  top: 60%;
+  width: 300px;
+}
+.mentoView a:link{
+  text-decoration: none;
+  color: black;
+}
+.mentoView ul li{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menteeView{
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  width: 300px;
+}
+.menteeView a:link{
+  text-decoration: none;
+  color: black;
+}
+.menteeView ul li{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
