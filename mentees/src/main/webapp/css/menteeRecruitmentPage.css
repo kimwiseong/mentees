@@ -1,0 +1,72 @@
+body{   
+  @font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;   
+  font-family: "yg-jalnan";
+  } 
+} 
+.menteeArea{
+ width: 80%;
+  margin: 0 auto;
+}
+.menteeArea .searchBox{
+  width: 15vw;
+  height: 3.5vw;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 23%;
+  left: 63%;
+  font-family: 'yg-jalnan';
+}
+.menteeArea .writeList{
+    width: 8vw;
+    height: 3vw;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.274);
+    opacity: 0.8;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    font-family: 'yg-jalnan';
+}
+.menteeArea .searchButton{
+border-radius: 8px;
+position: absolute;
+width: 4vw;
+height: 3.5vw;
+top: 23%;
+left: 77%;
+}
+.line{
+position: absolute;
+top: 30%;
+}
+
+.menteeArea ol li{
+  font-size: 30px;
+  position: absolute;
+  top: 35%;
+  
+}
+.menteeArea .menteeLists{
+  font-size: 1.5vw;
+  position: absolute;
+  top: 35%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td {
+  padding: 6px 15px;
+  border-bottom: 1px solid black;
+}
