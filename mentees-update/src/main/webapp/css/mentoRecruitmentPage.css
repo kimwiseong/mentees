@@ -1,0 +1,80 @@
+body{   
+  @font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;   
+  font-family: "yg-jalnan";
+  } 
+} 
+.mentoNum{
+position: absolute;
+  top: 35%;
+  left: 11%;
+}
+.mentoTitle{
+position: absolute;
+  top: 35%;
+  left: 27%;
+}
+.mentoWriter{
+position: absolute;
+  top: 35%;
+  left: 53%;
+}
+.mentoDate{
+position: absolute;
+  top: 35%;
+  left: 70%;
+}
+.mentoArea{
+ width: 80%;
+  margin: 0 auto;
+}
+.mentoArea .searchBox{
+  width: 410px;
+  height: 4vw;
+  border-radius: 8px;
+  position: absolute;
+  top: 26%;
+  left: 55%;
+  font-family: 'yg-jalnan';
+}
+.mentoArea .registerMento{
+  width: 10vw;
+  height: 4vw;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 15%;
+  left: 67%;
+  font-family: 'yg-jalnan';
+}
+.mentoArea .searchButton{
+position: absolute;
+top: 3%;
+left: 77%;
+}
+.mentoArea .mentoLists {
+  font-size: 1.5vw;
+  position: absolute;
+  top: 35%;
+}
+.line{
+position: absolute;
+top: 30%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td {
+  padding: 6px 15px;
+  border-bottom: 1px solid black;
+}
