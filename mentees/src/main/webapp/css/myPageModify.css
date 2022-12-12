@@ -1,0 +1,18 @@
+.changeMyIntro{
+   position:absolute;
+   top:20%;
+   left:20%;
+}
+
+.modifyPageForm{
+   position:absolute;
+   top:40%;
+   left:20%;
+}
+
+.memberIntro{
+   width: 500px;
+   height: 300px;
+   border : 2px solid black;
+   border-radius: 2px;
+}

@@ -1,0 +1,103 @@
+body{   
+  @font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;   
+  font-family: "yg-jalnan";
+  } 
+} 
+.mentoNum{
+position: absolute;
+  top: 35%;
+  left: 11%;
+}
+.mentoTitle{
+position: absolute;
+  top: 35%;
+  left: 27%;
+}
+.mentoWriter{
+position: absolute;
+  top: 35%;
+  left: 53%;
+}
+.mentoDate{
+position: absolute;
+  top: 35%;
+  left: 70%;
+}
+.mentoArea{
+ width: 70%;
+  margin: 0 auto;
+}
+.mentoArea .searchBox{
+  width: 410px;
+  height: 4vw;
+  border-radius: 8px;
+  position: absolute;
+  top: 24%;
+  left: 55%;
+  font-family: 'yg-jalnan';
+}
+.mentoArea .registerMento{
+  width: 5vw;
+  height: 3.5vw;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.274);
+  opacity: 0.8;
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
+.mentoArea .searchButton{
+width: 4vw;
+height: 2.5vw;
+position: absolute;
+top:0%;
+border-radius: 8px;
+background-color: rgba(128, 128, 128, 0.274);
+left: 91%;
+}
+.mentoArea .mentoLists {
+	width: 70%;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 32.5%;
+}
+.line{
+position: absolute;
+top: 30%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+td {
+  padding: 6px 15px;
+  border-bottom: 1px solid black;
+}
+ul {
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ft {
+	position : absolute;
+  	top: 110%;
+    width: 100%;
+}
+.paging {
+	padding: 0 15px 0 15px;
+}
+.page {
+	margin-top: 50px;
+}
+.nameHover a:hover{
+	color: #6C8910;
+}
