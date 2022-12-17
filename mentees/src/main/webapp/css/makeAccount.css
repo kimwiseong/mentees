@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+  .logo{
+   font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    position: absolute; 
+    left: 15%;
+    top: 25%;
+    font-size: 5vw;
+    color: #6C8910;     
+  }
+  
+  h1 {
+  	font-size: 2vw;
+  	color: #434343;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #6C8910;
+  }
+
+  .comment{
+    position: absolute;
+    left: 15%;
+    top: 37%;
+    font-size: 1.5vw;      
+    color: #434343;
+  }
+  
+  .joinForm{
+    width: 32vw;
+    height: 65vh;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    border: 2px solid gray;
+    box-shadow: 1px 1px gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .inputForm {
+  	display: inline-block;
+    align-items: center;
+  }
+  
+  .inputStyle{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 8px;
+    margin: 10px;
+    border: 2px solid gray;
+    font-weight: bold;
+  }
+  
+ 
+  .join{
+    width: 30.5vw;
+    height: 7.5vh;
+    border-radius: 8px;
+    background-color: #B5C995;
+    margin-top: 10px;      
+    margin-bottom: 10px;
+    text-align: center;
+    color: #434343;
+    font-weight: bold;
+  }
+  
